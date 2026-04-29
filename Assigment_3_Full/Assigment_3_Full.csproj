@@ -52,10 +52,31 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventoy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventoy.Designer.cs">
+      <DependentUpon>Inventoy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Checkout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Checkout.Designer.cs">
+      <DependentUpon>UC_Checkout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Inventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Inventory.Designer.cs">
+      <DependentUpon>UC_Inventory.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventoy.resx">
+      <DependentUpon>Inventoy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +87,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UC_Checkout.resx">
+      <DependentUpon>UC_Checkout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Inventory.resx">
+      <DependentUpon>UC_Inventory.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
