@@ -16,5 +16,10 @@ namespace Assigment_3_Full
         {
             InitializeComponent();
         }
+
+        private void Add_Inventory_Button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

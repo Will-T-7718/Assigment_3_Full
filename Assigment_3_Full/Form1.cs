@@ -48,13 +48,12 @@ namespace Assigment_3_Full
 
         private void btn_Checkout_Click(object sender, EventArgs e)
         {
-            ShowScreen(new UC_Checkout());
 
         }
 
         private void btn_Products_Click(object sender, EventArgs e)
         {
-            ShowScreen(new UC_Products());
+
         }
     }
 }
