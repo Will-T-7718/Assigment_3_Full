@@ -92,33 +92,44 @@
             this.Column1});
             this.dataGridView1.Location = new System.Drawing.Point(464, 125);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(543, 419);
             this.dataGridView1.TabIndex = 6;
             // 
             // Name
             // 
             this.Name.HeaderText = "Name";
+            this.Name.MinimumWidth = 6;
             this.Name.Name = "Name";
+            this.Name.Width = 125;
             // 
             // Price
             // 
             this.Price.HeaderText = "Price";
+            this.Price.MinimumWidth = 6;
             this.Price.Name = "Price";
+            this.Price.Width = 125;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Brand";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "ID";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Quantity";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // groupBox1
             // 
@@ -147,7 +158,7 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(109, 182);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.Size = new System.Drawing.Size(100, 22);
             this.textBox5.TabIndex = 13;
             // 
             // label6
@@ -155,7 +166,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(35, 185);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.Size = new System.Drawing.Size(55, 16);
             this.label6.TabIndex = 12;
             this.label6.Text = "Quantity";
             // 
@@ -163,7 +174,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(109, 141);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(100, 22);
             this.textBox4.TabIndex = 11;
             // 
             // label5
@@ -171,7 +182,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(35, 144);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 13);
+            this.label5.Size = new System.Drawing.Size(71, 16);
             this.label5.TabIndex = 10;
             this.label5.Text = "ID Number";
             // 
@@ -180,7 +191,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(35, 104);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(43, 16);
             this.label4.TabIndex = 9;
             this.label4.Text = "Brand";
             // 
@@ -189,7 +200,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(35, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.Size = new System.Drawing.Size(0, 16);
             this.label3.TabIndex = 8;
             // 
             // label2
@@ -197,7 +208,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(35, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.Size = new System.Drawing.Size(38, 16);
             this.label2.TabIndex = 7;
             this.label2.Text = "Price";
             // 
@@ -206,7 +217,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(35, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "Name";
             // 
@@ -214,21 +225,21 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(109, 104);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 5;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(109, 67);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 4;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(109, 30);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 3;
             // 
             // button7
@@ -295,7 +306,7 @@
             // 
             this.textBox11.Location = new System.Drawing.Point(82, 64);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
+            this.textBox11.Size = new System.Drawing.Size(100, 22);
             this.textBox11.TabIndex = 1;
             // 
             // Delete_Inventory_Button
@@ -331,7 +342,7 @@
             this.Quantity_Inventory_Label.AutoSize = true;
             this.Quantity_Inventory_Label.Location = new System.Drawing.Point(25, 202);
             this.Quantity_Inventory_Label.Name = "Quantity_Inventory_Label";
-            this.Quantity_Inventory_Label.Size = new System.Drawing.Size(46, 13);
+            this.Quantity_Inventory_Label.Size = new System.Drawing.Size(55, 16);
             this.Quantity_Inventory_Label.TabIndex = 9;
             this.Quantity_Inventory_Label.Text = "Quantity";
             // 
@@ -340,7 +351,7 @@
             this.Brand_Inventory_Label.AutoSize = true;
             this.Brand_Inventory_Label.Location = new System.Drawing.Point(25, 158);
             this.Brand_Inventory_Label.Name = "Brand_Inventory_Label";
-            this.Brand_Inventory_Label.Size = new System.Drawing.Size(35, 13);
+            this.Brand_Inventory_Label.Size = new System.Drawing.Size(43, 16);
             this.Brand_Inventory_Label.TabIndex = 8;
             this.Brand_Inventory_Label.Text = "Brand";
             // 
@@ -349,7 +360,7 @@
             this.Name_Inventory_Label.AutoSize = true;
             this.Name_Inventory_Label.Location = new System.Drawing.Point(25, 121);
             this.Name_Inventory_Label.Name = "Name_Inventory_Label";
-            this.Name_Inventory_Label.Size = new System.Drawing.Size(35, 13);
+            this.Name_Inventory_Label.Size = new System.Drawing.Size(44, 16);
             this.Name_Inventory_Label.TabIndex = 7;
             this.Name_Inventory_Label.Text = "Name";
             // 
@@ -358,7 +369,7 @@
             this.Price_Inventory_Label.AutoSize = true;
             this.Price_Inventory_Label.Location = new System.Drawing.Point(25, 80);
             this.Price_Inventory_Label.Name = "Price_Inventory_Label";
-            this.Price_Inventory_Label.Size = new System.Drawing.Size(31, 13);
+            this.Price_Inventory_Label.Size = new System.Drawing.Size(38, 16);
             this.Price_Inventory_Label.TabIndex = 6;
             this.Price_Inventory_Label.Text = "Price";
             // 
@@ -367,7 +378,7 @@
             this.ID_Inventory_Label.AutoSize = true;
             this.ID_Inventory_Label.Location = new System.Drawing.Point(25, 43);
             this.ID_Inventory_Label.Name = "ID_Inventory_Label";
-            this.ID_Inventory_Label.Size = new System.Drawing.Size(18, 13);
+            this.ID_Inventory_Label.Size = new System.Drawing.Size(20, 16);
             this.ID_Inventory_Label.TabIndex = 5;
             this.ID_Inventory_Label.Text = "ID";
             // 
@@ -375,35 +386,35 @@
             // 
             this.txt_Quantity.Location = new System.Drawing.Point(94, 199);
             this.txt_Quantity.Name = "txt_Quantity";
-            this.txt_Quantity.Size = new System.Drawing.Size(100, 20);
+            this.txt_Quantity.Size = new System.Drawing.Size(100, 22);
             this.txt_Quantity.TabIndex = 4;
             // 
             // txt_Brand
             // 
             this.txt_Brand.Location = new System.Drawing.Point(94, 155);
             this.txt_Brand.Name = "txt_Brand";
-            this.txt_Brand.Size = new System.Drawing.Size(100, 20);
+            this.txt_Brand.Size = new System.Drawing.Size(100, 22);
             this.txt_Brand.TabIndex = 3;
             // 
             // txt_Name
             // 
             this.txt_Name.Location = new System.Drawing.Point(94, 114);
             this.txt_Name.Name = "txt_Name";
-            this.txt_Name.Size = new System.Drawing.Size(100, 20);
+            this.txt_Name.Size = new System.Drawing.Size(100, 22);
             this.txt_Name.TabIndex = 2;
             // 
             // txt_Price
             // 
             this.txt_Price.Location = new System.Drawing.Point(94, 77);
             this.txt_Price.Name = "txt_Price";
-            this.txt_Price.Size = new System.Drawing.Size(100, 20);
+            this.txt_Price.Size = new System.Drawing.Size(100, 22);
             this.txt_Price.TabIndex = 1;
             // 
             // txt_ID
             // 
             this.txt_ID.Location = new System.Drawing.Point(94, 40);
             this.txt_ID.Name = "txt_ID";
-            this.txt_ID.Size = new System.Drawing.Size(100, 20);
+            this.txt_ID.Size = new System.Drawing.Size(100, 22);
             this.txt_ID.TabIndex = 0;
             // 
             // dataGridView2
@@ -415,43 +426,56 @@
             this.Name_Column,
             this.Brand_Column,
             this.Quantity_Column});
-            this.dataGridView2.Location = new System.Drawing.Point(229, 22);
+            this.dataGridView2.Location = new System.Drawing.Point(250, 16);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.Size = new System.Drawing.Size(543, 421);
             this.dataGridView2.TabIndex = 1;
             // 
             // ID_Column
             // 
             this.ID_Column.HeaderText = "ID";
+            this.ID_Column.MinimumWidth = 6;
             this.ID_Column.Name = "ID_Column";
+            this.ID_Column.Width = 125;
             // 
             // Price_Column
             // 
             this.Price_Column.HeaderText = "Price";
+            this.Price_Column.MinimumWidth = 6;
             this.Price_Column.Name = "Price_Column";
+            this.Price_Column.Width = 125;
             // 
             // Name_Column
             // 
             this.Name_Column.HeaderText = "Name";
+            this.Name_Column.MinimumWidth = 6;
             this.Name_Column.Name = "Name_Column";
+            this.Name_Column.Width = 125;
             // 
             // Brand_Column
             // 
             this.Brand_Column.HeaderText = "Brand";
+            this.Brand_Column.MinimumWidth = 6;
             this.Brand_Column.Name = "Brand_Column";
+            this.Brand_Column.Width = 125;
             // 
             // Quantity_Column
             // 
             this.Quantity_Column.HeaderText = "Quantity";
+            this.Quantity_Column.MinimumWidth = 6;
             this.Quantity_Column.Name = "Quantity_Column";
+            this.Quantity_Column.Width = 125;
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // contextMenuStrip2
             // 
+            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
             // 
