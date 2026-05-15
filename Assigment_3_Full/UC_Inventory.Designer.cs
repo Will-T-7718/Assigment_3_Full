@@ -61,11 +61,11 @@
             this.Name_Inventory_Label = new System.Windows.Forms.Label();
             this.Price_Inventory_Label = new System.Windows.Forms.Label();
             this.ID_Inventory_Label = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_Quantity = new System.Windows.Forms.TextBox();
+            this.txt_Brand = new System.Windows.Forms.TextBox();
+            this.txt_Name = new System.Windows.Forms.TextBox();
+            this.txt_Price = new System.Windows.Forms.TextBox();
+            this.txt_ID = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.ID_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -268,11 +268,11 @@
             this.groupBox2.Controls.Add(this.Name_Inventory_Label);
             this.groupBox2.Controls.Add(this.Price_Inventory_Label);
             this.groupBox2.Controls.Add(this.ID_Inventory_Label);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.txt_Quantity);
+            this.groupBox2.Controls.Add(this.txt_Brand);
+            this.groupBox2.Controls.Add(this.txt_Name);
+            this.groupBox2.Controls.Add(this.txt_Price);
+            this.groupBox2.Controls.Add(this.txt_ID);
             this.groupBox2.Location = new System.Drawing.Point(10, 16);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(200, 427);
@@ -371,40 +371,40 @@
             this.ID_Inventory_Label.TabIndex = 5;
             this.ID_Inventory_Label.Text = "ID";
             // 
-            // textBox10
+            // txt_Quantity
             // 
-            this.textBox10.Location = new System.Drawing.Point(94, 199);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 4;
+            this.txt_Quantity.Location = new System.Drawing.Point(94, 199);
+            this.txt_Quantity.Name = "txt_Quantity";
+            this.txt_Quantity.Size = new System.Drawing.Size(100, 20);
+            this.txt_Quantity.TabIndex = 4;
             // 
-            // textBox9
+            // txt_Brand
             // 
-            this.textBox9.Location = new System.Drawing.Point(94, 155);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 3;
+            this.txt_Brand.Location = new System.Drawing.Point(94, 155);
+            this.txt_Brand.Name = "txt_Brand";
+            this.txt_Brand.Size = new System.Drawing.Size(100, 20);
+            this.txt_Brand.TabIndex = 3;
             // 
-            // textBox8
+            // txt_Name
             // 
-            this.textBox8.Location = new System.Drawing.Point(94, 114);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 2;
+            this.txt_Name.Location = new System.Drawing.Point(94, 114);
+            this.txt_Name.Name = "txt_Name";
+            this.txt_Name.Size = new System.Drawing.Size(100, 20);
+            this.txt_Name.TabIndex = 2;
             // 
-            // textBox7
+            // txt_Price
             // 
-            this.textBox7.Location = new System.Drawing.Point(94, 77);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 1;
+            this.txt_Price.Location = new System.Drawing.Point(94, 77);
+            this.txt_Price.Name = "txt_Price";
+            this.txt_Price.Size = new System.Drawing.Size(100, 20);
+            this.txt_Price.TabIndex = 1;
             // 
-            // textBox6
+            // txt_ID
             // 
-            this.textBox6.Location = new System.Drawing.Point(94, 40);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 0;
+            this.txt_ID.Location = new System.Drawing.Point(94, 40);
+            this.txt_ID.Name = "txt_ID";
+            this.txt_ID.Size = new System.Drawing.Size(100, 20);
+            this.txt_ID.TabIndex = 0;
             // 
             // dataGridView2
             // 
@@ -498,11 +498,11 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label ID_Inventory_Label;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_Quantity;
+        private System.Windows.Forms.TextBox txt_Brand;
+        private System.Windows.Forms.TextBox txt_Name;
+        private System.Windows.Forms.TextBox txt_Price;
+        private System.Windows.Forms.TextBox txt_ID;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Column;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price_Column;

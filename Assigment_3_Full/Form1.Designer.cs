@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_Orders = new System.Windows.Forms.Button();
+            this.btn_Checkout = new System.Windows.Forms.Button();
             this.btn_Inventory = new System.Windows.Forms.Button();
             this.btn_Products = new System.Windows.Forms.Button();
             this.btn_Home = new System.Windows.Forms.Button();
             this.pnlContent = new System.Windows.Forms.Panel();
-            this.btn_Checkout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkSalmon;
+            this.panel1.Controls.Add(this.btn_Orders);
             this.panel1.Controls.Add(this.btn_Checkout);
             this.panel1.Controls.Add(this.btn_Inventory);
             this.panel1.Controls.Add(this.btn_Products);
@@ -48,6 +50,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(801, 86);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_Orders
+            // 
+            this.btn_Orders.Location = new System.Drawing.Point(526, 32);
+            this.btn_Orders.Name = "btn_Orders";
+            this.btn_Orders.Size = new System.Drawing.Size(75, 23);
+            this.btn_Orders.TabIndex = 4;
+            this.btn_Orders.Text = "Orders";
+            this.btn_Orders.UseVisualStyleBackColor = true;
+            this.btn_Orders.Click += new System.EventHandler(this.btn_Orders_Click);
+            // 
+            // btn_Checkout
+            // 
+            this.btn_Checkout.Location = new System.Drawing.Point(670, 32);
+            this.btn_Checkout.Name = "btn_Checkout";
+            this.btn_Checkout.Size = new System.Drawing.Size(75, 23);
+            this.btn_Checkout.TabIndex = 3;
+            this.btn_Checkout.Text = "Checkout";
+            this.btn_Checkout.UseVisualStyleBackColor = true;
+            this.btn_Checkout.Click += new System.EventHandler(this.btn_Checkout_Click);
             // 
             // btn_Inventory
             // 
@@ -87,16 +109,6 @@
             this.pnlContent.Size = new System.Drawing.Size(801, 370);
             this.pnlContent.TabIndex = 1;
             // 
-            // btn_Checkout
-            // 
-            this.btn_Checkout.Location = new System.Drawing.Point(515, 33);
-            this.btn_Checkout.Name = "btn_Checkout";
-            this.btn_Checkout.Size = new System.Drawing.Size(75, 23);
-            this.btn_Checkout.TabIndex = 3;
-            this.btn_Checkout.Text = "Checkout";
-            this.btn_Checkout.UseVisualStyleBackColor = true;
-            this.btn_Checkout.Click += new System.EventHandler(this.btn_Checkout_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -119,6 +131,7 @@
         private System.Windows.Forms.Button btn_Home;
         private System.Windows.Forms.Button btn_Checkout;
         private System.Windows.Forms.Panel pnlContent;
+        private System.Windows.Forms.Button btn_Orders;
     }
 }
 

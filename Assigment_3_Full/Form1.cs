@@ -22,11 +22,6 @@ namespace Assigment_3_Full
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         // This can be reused for showing any UserControl
         private void ShowScreen(UserControl newScreen)
         {
@@ -46,14 +41,19 @@ namespace Assigment_3_Full
             ShowScreen(new UC_Inventory());
         }
 
-        private void btn_Checkout_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_Products_Click(object sender, EventArgs e)
         {
+            ShowScreen(new UC_Products());
+        }
 
+        private void btn_Orders_Click(object sender, EventArgs e)
+        {
+            ShowScreen(new UC_Orders());
+        }
+
+        private void btn_Checkout_Click(object sender, EventArgs e)
+        {
+            ShowScreen(new UC_Checkout());
         }
     }
 }
