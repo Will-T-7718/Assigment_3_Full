@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,10 +51,10 @@
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.Delete_Inventory_Button = new System.Windows.Forms.Button();
-            this.Clear_Inventory_Button = new System.Windows.Forms.Button();
-            this.Add_Inventory_Button = new System.Windows.Forms.Button();
+            this.txt_Delete_Inventory = new System.Windows.Forms.TextBox();
+            this.btn_Delete_Inventory = new System.Windows.Forms.Button();
+            this.btn_Clear_Inventory = new System.Windows.Forms.Button();
+            this.btn_Add_Inventory = new System.Windows.Forms.Button();
             this.Quantity_Inventory_Label = new System.Windows.Forms.Label();
             this.Brand_Inventory_Label = new System.Windows.Forms.Label();
             this.Name_Inventory_Label = new System.Windows.Forms.Label();
@@ -66,19 +65,19 @@
             this.txt_Name = new System.Windows.Forms.TextBox();
             this.txt_Price = new System.Windows.Forms.TextBox();
             this.txt_ID = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dgv_Inventory = new System.Windows.Forms.DataGridView();
             this.ID_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Name_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Brand_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantity_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.btn_Update_Inventory = new System.Windows.Forms.Button();
+            this.txt_Update_Inventory = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Inventory)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -272,8 +271,8 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.groupBox3);
-            this.groupBox2.Controls.Add(this.Clear_Inventory_Button);
-            this.groupBox2.Controls.Add(this.Add_Inventory_Button);
+            this.groupBox2.Controls.Add(this.btn_Clear_Inventory);
+            this.groupBox2.Controls.Add(this.btn_Add_Inventory);
             this.groupBox2.Controls.Add(this.Quantity_Inventory_Label);
             this.groupBox2.Controls.Add(this.Brand_Inventory_Label);
             this.groupBox2.Controls.Add(this.Name_Inventory_Label);
@@ -293,8 +292,10 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox11);
-            this.groupBox3.Controls.Add(this.Delete_Inventory_Button);
+            this.groupBox3.Controls.Add(this.txt_Update_Inventory);
+            this.groupBox3.Controls.Add(this.btn_Update_Inventory);
+            this.groupBox3.Controls.Add(this.txt_Delete_Inventory);
+            this.groupBox3.Controls.Add(this.btn_Delete_Inventory);
             this.groupBox3.Location = new System.Drawing.Point(6, 274);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(188, 147);
@@ -302,40 +303,40 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
-            // textBox11
+            // txt_Delete_Inventory
             // 
-            this.textBox11.Location = new System.Drawing.Point(82, 64);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 22);
-            this.textBox11.TabIndex = 1;
+            this.txt_Delete_Inventory.Location = new System.Drawing.Point(82, 43);
+            this.txt_Delete_Inventory.Name = "txt_Delete_Inventory";
+            this.txt_Delete_Inventory.Size = new System.Drawing.Size(100, 22);
+            this.txt_Delete_Inventory.TabIndex = 1;
             // 
-            // Delete_Inventory_Button
+            // btn_Delete_Inventory
             // 
-            this.Delete_Inventory_Button.Location = new System.Drawing.Point(6, 62);
-            this.Delete_Inventory_Button.Name = "Delete_Inventory_Button";
-            this.Delete_Inventory_Button.Size = new System.Drawing.Size(75, 23);
-            this.Delete_Inventory_Button.TabIndex = 0;
-            this.Delete_Inventory_Button.Text = "Delete";
-            this.Delete_Inventory_Button.UseVisualStyleBackColor = true;
+            this.btn_Delete_Inventory.Location = new System.Drawing.Point(6, 43);
+            this.btn_Delete_Inventory.Name = "btn_Delete_Inventory";
+            this.btn_Delete_Inventory.Size = new System.Drawing.Size(75, 23);
+            this.btn_Delete_Inventory.TabIndex = 0;
+            this.btn_Delete_Inventory.Text = "Delete";
+            this.btn_Delete_Inventory.UseVisualStyleBackColor = true;
             // 
-            // Clear_Inventory_Button
+            // btn_Clear_Inventory
             // 
-            this.Clear_Inventory_Button.Location = new System.Drawing.Point(110, 245);
-            this.Clear_Inventory_Button.Name = "Clear_Inventory_Button";
-            this.Clear_Inventory_Button.Size = new System.Drawing.Size(75, 23);
-            this.Clear_Inventory_Button.TabIndex = 11;
-            this.Clear_Inventory_Button.Text = "Clear";
-            this.Clear_Inventory_Button.UseVisualStyleBackColor = true;
+            this.btn_Clear_Inventory.Location = new System.Drawing.Point(110, 245);
+            this.btn_Clear_Inventory.Name = "btn_Clear_Inventory";
+            this.btn_Clear_Inventory.Size = new System.Drawing.Size(75, 23);
+            this.btn_Clear_Inventory.TabIndex = 11;
+            this.btn_Clear_Inventory.Text = "Clear";
+            this.btn_Clear_Inventory.UseVisualStyleBackColor = true;
             // 
-            // Add_Inventory_Button
+            // btn_Add_Inventory
             // 
-            this.Add_Inventory_Button.Location = new System.Drawing.Point(19, 245);
-            this.Add_Inventory_Button.Name = "Add_Inventory_Button";
-            this.Add_Inventory_Button.Size = new System.Drawing.Size(75, 23);
-            this.Add_Inventory_Button.TabIndex = 10;
-            this.Add_Inventory_Button.Text = "Add";
-            this.Add_Inventory_Button.UseVisualStyleBackColor = true;
-            this.Add_Inventory_Button.Click += new System.EventHandler(this.Add_Inventory_Button_Click);
+            this.btn_Add_Inventory.Location = new System.Drawing.Point(19, 245);
+            this.btn_Add_Inventory.Name = "btn_Add_Inventory";
+            this.btn_Add_Inventory.Size = new System.Drawing.Size(75, 23);
+            this.btn_Add_Inventory.TabIndex = 10;
+            this.btn_Add_Inventory.Text = "Add";
+            this.btn_Add_Inventory.UseVisualStyleBackColor = true;
+            this.btn_Add_Inventory.Click += new System.EventHandler(this.Add_Inventory_Button_Click);
             // 
             // Quantity_Inventory_Label
             // 
@@ -417,20 +418,20 @@
             this.txt_ID.Size = new System.Drawing.Size(100, 22);
             this.txt_ID.TabIndex = 0;
             // 
-            // dataGridView2
+            // dgv_Inventory
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgv_Inventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Inventory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_Column,
             this.Price_Column,
             this.Name_Column,
             this.Brand_Column,
             this.Quantity_Column});
-            this.dataGridView2.Location = new System.Drawing.Point(250, 16);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.Size = new System.Drawing.Size(543, 421);
-            this.dataGridView2.TabIndex = 1;
+            this.dgv_Inventory.Location = new System.Drawing.Point(250, 16);
+            this.dgv_Inventory.Name = "dgv_Inventory";
+            this.dgv_Inventory.RowHeadersWidth = 51;
+            this.dgv_Inventory.Size = new System.Drawing.Size(669, 421);
+            this.dgv_Inventory.TabIndex = 1;
             // 
             // ID_Column
             // 
@@ -467,21 +468,25 @@
             this.Quantity_Column.Name = "Quantity_Column";
             this.Quantity_Column.Width = 125;
             // 
-            // contextMenuStrip1
+            // btn_Update_Inventory
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.btn_Update_Inventory.Location = new System.Drawing.Point(7, 88);
+            this.btn_Update_Inventory.Name = "btn_Update_Inventory";
+            this.btn_Update_Inventory.Size = new System.Drawing.Size(75, 23);
+            this.btn_Update_Inventory.TabIndex = 2;
+            this.btn_Update_Inventory.Text = "Update";
+            this.btn_Update_Inventory.UseVisualStyleBackColor = true;
             // 
-            // contextMenuStrip2
+            // txt_Update_Inventory
             // 
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
+            this.txt_Update_Inventory.Location = new System.Drawing.Point(82, 88);
+            this.txt_Update_Inventory.Name = "txt_Update_Inventory";
+            this.txt_Update_Inventory.Size = new System.Drawing.Size(100, 22);
+            this.txt_Update_Inventory.TabIndex = 3;
             // 
             // UC_Inventory
             // 
-            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.dgv_Inventory);
             this.Controls.Add(this.groupBox2);
             this.Name = "UC_Inventory";
             this.Size = new System.Drawing.Size(922, 620);
@@ -492,7 +497,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Inventory)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -527,22 +532,22 @@
         private System.Windows.Forms.TextBox txt_Name;
         private System.Windows.Forms.TextBox txt_Price;
         private System.Windows.Forms.TextBox txt_ID;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dgv_Inventory;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Column;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price_Column;
         private System.Windows.Forms.DataGridViewTextBoxColumn Name_Column;
         private System.Windows.Forms.DataGridViewTextBoxColumn Brand_Column;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity_Column;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
-        private System.Windows.Forms.Button Add_Inventory_Button;
+        private System.Windows.Forms.Button btn_Add_Inventory;
         private System.Windows.Forms.Label Quantity_Inventory_Label;
         private System.Windows.Forms.Label Brand_Inventory_Label;
         private System.Windows.Forms.Label Name_Inventory_Label;
         private System.Windows.Forms.Label Price_Inventory_Label;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Button Delete_Inventory_Button;
-        private System.Windows.Forms.Button Clear_Inventory_Button;
+        private System.Windows.Forms.TextBox txt_Delete_Inventory;
+        private System.Windows.Forms.Button btn_Delete_Inventory;
+        private System.Windows.Forms.Button btn_Clear_Inventory;
+        private System.Windows.Forms.Button btn_Update_Inventory;
+        private System.Windows.Forms.TextBox txt_Update_Inventory;
     }
 }
