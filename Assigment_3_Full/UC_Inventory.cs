@@ -93,14 +93,40 @@ namespace Assigment_3_Full
                 return;
             }
 
-        var productToUpdate = _inventoryList.FirstOrDefault(p => p.ProductID == idToUpdate);
+            var productToUpdate = _inventoryList.FirstOrDefault(p => p.Product_ID == idToUpdate);
 
-        if (productToUpdate != null)
-        {
-            if (validateInputs())
+            if (productToUpdate != null)
+            {
+                if (ValidateInputs())
                 {
 
                 }
+            }
+        }
+
+        private void btn_Delete_Inventory_Click(object sender, EventArgs e)
+        {
+            string searchTerm = txt_Delete_Inventory.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                MessageBox.Show("enter a valid product ID or name");
+                return;
+            }
+
+            Class_Product productToDelete = _inventoryList.FirstOrDefault(p =>
+            p.Product_ID.ToString() == searchTerm ||
+            p.Product_Name.Equals(searchTerm, StringComparison.OrdinalIgnoreCase));
+
+            if (productToDelete != null)
+            {
+
+            }
+        }
+
+        private void btn_Clear_Inventory_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

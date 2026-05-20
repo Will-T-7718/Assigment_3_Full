@@ -45,7 +45,7 @@
             // btn_Add_Producs
             // 
             this.btn_Add_Producs.Location = new System.Drawing.Point(65, 53);
-            this.btn_Add_Producs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Add_Producs.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Add_Producs.Name = "btn_Add_Producs";
             this.btn_Add_Producs.Size = new System.Drawing.Size(100, 28);
             this.btn_Add_Producs.TabIndex = 0;
@@ -55,7 +55,7 @@
             // btn_Remove_Products
             // 
             this.btn_Remove_Products.Location = new System.Drawing.Point(65, 123);
-            this.btn_Remove_Products.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Remove_Products.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Remove_Products.Name = "btn_Remove_Products";
             this.btn_Remove_Products.Size = new System.Drawing.Size(100, 28);
             this.btn_Remove_Products.TabIndex = 0;
@@ -65,7 +65,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(120, 190);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 1;
@@ -93,7 +93,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(120, 242);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 4;
@@ -101,7 +101,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(120, 297);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 5;
@@ -109,7 +109,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(120, 352);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(132, 22);
             this.textBox4.TabIndex = 6;
@@ -136,11 +136,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(383, 53);
+            this.dataGridView1.Location = new System.Drawing.Point(374, 15);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(788, 645);
+            this.dataGridView1.Size = new System.Drawing.Size(788, 491);
             this.dataGridView1.TabIndex = 9;
             // 
             // UC_Products
@@ -158,7 +158,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_Remove_Products);
             this.Controls.Add(this.btn_Add_Producs);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_Products";
             this.Size = new System.Drawing.Size(1297, 782);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

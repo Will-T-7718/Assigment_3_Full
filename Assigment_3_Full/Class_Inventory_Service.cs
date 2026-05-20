@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using static Assigment_3_Full.Class_Product;
 
 namespace Assigment_3_Full
 {

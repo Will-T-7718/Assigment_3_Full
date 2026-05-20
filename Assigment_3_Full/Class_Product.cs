@@ -8,21 +8,20 @@ namespace Assigment_3_Full
 {
     internal class Class_Product
     {
-        // These names must be used in the DataPropertyName of the DataGridView columns
-        public int ProductID { get; set; }
-        public string ProductName { get; set; }
-        public string ProductBrand { get; set; }
-        public decimal ProductPrice { get; set; }
-        public int ProductQuantity { get; set; }
+        public int Product_ID { get; set; }
+        public string Product_Name { get; set; }
+        public string Product_Brand { get; set; }
+        public decimal Product_Price { get; set; }
+        public int Product_Quantity { get; set; }
 
         // This is the constructor that builds a Product object
         public Class_Product(int ID, string Name, string Brand, decimal Price, int Quantity)
         {
-            ProductID = ID;
-            ProductName = Name;
-            ProductBrand = Brand;
-            ProductPrice = Price;
-            ProductQuantity = Quantity;
+            Product_ID = ID;
+            Product_Name = Name;
+            Product_Brand = Brand;
+            Product_Price = Price;
+            Product_Quantity = Quantity;
         }
 
     }

@@ -51,6 +51,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txt_Update_Inventory = new System.Windows.Forms.TextBox();
+            this.btn_Update_Inventory = new System.Windows.Forms.Button();
             this.txt_Delete_Inventory = new System.Windows.Forms.TextBox();
             this.btn_Delete_Inventory = new System.Windows.Forms.Button();
             this.btn_Clear_Inventory = new System.Windows.Forms.Button();
@@ -71,8 +73,6 @@
             this.Name_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Brand_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantity_Column = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_Update_Inventory = new System.Windows.Forms.Button();
-            this.txt_Update_Inventory = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -89,7 +89,7 @@
             this.Column2,
             this.Column3,
             this.Column1});
-            this.dataGridView1.Location = new System.Drawing.Point(464, 125);
+            this.dataGridView1.Location = new System.Drawing.Point(216, 22);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(543, 419);
@@ -303,6 +303,22 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "groupBox3";
             // 
+            // txt_Update_Inventory
+            // 
+            this.txt_Update_Inventory.Location = new System.Drawing.Point(82, 88);
+            this.txt_Update_Inventory.Name = "txt_Update_Inventory";
+            this.txt_Update_Inventory.Size = new System.Drawing.Size(100, 22);
+            this.txt_Update_Inventory.TabIndex = 3;
+            // 
+            // btn_Update_Inventory
+            // 
+            this.btn_Update_Inventory.Location = new System.Drawing.Point(7, 88);
+            this.btn_Update_Inventory.Name = "btn_Update_Inventory";
+            this.btn_Update_Inventory.Size = new System.Drawing.Size(75, 23);
+            this.btn_Update_Inventory.TabIndex = 2;
+            this.btn_Update_Inventory.Text = "Update";
+            this.btn_Update_Inventory.UseVisualStyleBackColor = true;
+            // 
             // txt_Delete_Inventory
             // 
             this.txt_Delete_Inventory.Location = new System.Drawing.Point(82, 43);
@@ -318,6 +334,7 @@
             this.btn_Delete_Inventory.TabIndex = 0;
             this.btn_Delete_Inventory.Text = "Delete";
             this.btn_Delete_Inventory.UseVisualStyleBackColor = true;
+            this.btn_Delete_Inventory.Click += new System.EventHandler(this.btn_Delete_Inventory_Click);
             // 
             // btn_Clear_Inventory
             // 
@@ -327,6 +344,7 @@
             this.btn_Clear_Inventory.TabIndex = 11;
             this.btn_Clear_Inventory.Text = "Clear";
             this.btn_Clear_Inventory.UseVisualStyleBackColor = true;
+            this.btn_Clear_Inventory.Click += new System.EventHandler(this.btn_Clear_Inventory_Click);
             // 
             // btn_Add_Inventory
             // 
@@ -427,7 +445,7 @@
             this.Name_Column,
             this.Brand_Column,
             this.Quantity_Column});
-            this.dgv_Inventory.Location = new System.Drawing.Point(250, 16);
+            this.dgv_Inventory.Location = new System.Drawing.Point(216, 22);
             this.dgv_Inventory.Name = "dgv_Inventory";
             this.dgv_Inventory.RowHeadersWidth = 51;
             this.dgv_Inventory.Size = new System.Drawing.Size(669, 421);
@@ -467,22 +485,6 @@
             this.Quantity_Column.MinimumWidth = 6;
             this.Quantity_Column.Name = "Quantity_Column";
             this.Quantity_Column.Width = 125;
-            // 
-            // btn_Update_Inventory
-            // 
-            this.btn_Update_Inventory.Location = new System.Drawing.Point(7, 88);
-            this.btn_Update_Inventory.Name = "btn_Update_Inventory";
-            this.btn_Update_Inventory.Size = new System.Drawing.Size(75, 23);
-            this.btn_Update_Inventory.TabIndex = 2;
-            this.btn_Update_Inventory.Text = "Update";
-            this.btn_Update_Inventory.UseVisualStyleBackColor = true;
-            // 
-            // txt_Update_Inventory
-            // 
-            this.txt_Update_Inventory.Location = new System.Drawing.Point(82, 88);
-            this.txt_Update_Inventory.Name = "txt_Update_Inventory";
-            this.txt_Update_Inventory.Size = new System.Drawing.Size(100, 22);
-            this.txt_Update_Inventory.TabIndex = 3;
             // 
             // UC_Inventory
             // 

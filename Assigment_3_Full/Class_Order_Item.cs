@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Assigment_3_Full
 {
-    internal class Class_Order_Item
+    public class Class_Order_Item
     {
-        public int ProductID { get; set; }
-        public string ProductName { get; set; }
-        public decimal UnitPrice { get; set; }
+        public int Product_ID { get; set; }
+        public string Product_Name { get; set; }
+        public decimal Unit_Price { get; set; }
         public int Quantity { get; set; }
-        public decimal Subtotal => UnitPrice * Quantity;
+        public decimal Subtotal => Unit_Price * Quantity;
     }
 
     public class Order
